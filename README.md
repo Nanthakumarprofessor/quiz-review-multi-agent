@@ -361,6 +361,3 @@ curl -X POST http://localhost:8001/api/v1/chat \
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
