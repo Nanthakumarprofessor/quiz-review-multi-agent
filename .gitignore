@@ -1,0 +1,54 @@
+# ── Environment & Secrets ──────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Python Virtual Environments ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python Bytecode & Caches ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Testing & Coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.xml
+
+# ── Type Checking & Linting Caches ───────────────────────────────────────────
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# ── IDE & Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS Metadata ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Scratch / Temp ────────────────────────────────────────────────────────────
+scratch/
+tmp/
+temp/
+
+# ── Distribution / Build ──────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
